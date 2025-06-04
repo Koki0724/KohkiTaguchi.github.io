@@ -1,1 +1,144 @@
-<h1>こんにちは</h1>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>田口さんのポートフォリオ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header-logo"><a href="#">TAGUCHI's Portfolio</a></h1>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>課題解決を楽しむエンジニア</h2>
+                <p>田口 〇〇</p>
+                <p class="hero-subtext">Webの力で人々の毎日を少しでも豊かにすることを目指しています。</p>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container fade-in">
+                <h2 class="section-title">About Me</h2>
+                <div class="profile">
+                    <p>
+                        ここに自己紹介文を記述します。これまでの経歴や、エンジニアを目指したきっかけなどを書きましょう。<br>
+                        どのような技術に興味があり、今後どのように活躍していきたいかを具体的に書くことで、あなたの人柄や熱意が伝わります。<br>
+                        例えば、チーム開発での経験や、問題解決の際に工夫したエピソードなどを盛り込むと良いでしょう。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="works section">
+            <div class="container fade-in">
+                <h2 class="section-title">Works</h2>
+                <div class="works-grid">
+                    <div class="work-item">
+                        <div class="work-image">
+                            <img src="https://via.placeholder.com/400x250/ccc/fff?text=Project+1" alt="作品1の画像">
+                        </div>
+                        <h3 class="work-title">プロジェクト名 1</h3>
+                        <p class="work-description">
+                            ここにプロジェクトの概要を説明します。どのような目的で、どんな機能を持ったサイト・アプリなのかを簡潔に記述します。
+                        </p>
+                        <div class="work-info">
+                            <p><strong>使用技術:</strong> React, Node.js, CSS</p>
+                            <p><strong>工夫した点:</strong> 〇〇のパフォーマンスを改善するため、△△という手法を取り入れました。</p>
+                        </div>
+                        <div class="work-links">
+                            <a href="#" target="_blank" class="btn">Demo</a>
+                            <a href="#" target="_blank" class="btn">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-image">
+                             <img src="https://via.placeholder.com/400x250/ccc/fff?text=Project+2" alt="作品2の画像">
+                        </div>
+                        <h3 class="work-title">プロジェクト名 2</h3>
+                        <p class="work-description">
+                            2つ目のプロジェクト概要です。ユーザーが直感的に使えるUI/UXを意識してデザインしました。
+                        </p>
+                         <div class="work-info">
+                            <p><strong>使用技術:</strong> HTML, CSS, JavaScript, PHP</p>
+                            <p><strong>工夫した点:</strong> 複雑な情報を分かりやすく見せるため、APIで取得したデータをグラフで可視化しました。</p>
+                        </div>
+                        <div class="work-links">
+                            <a href="#" target="_blank" class="btn">Demo</a>
+                            <a href="#" target="_blank" class="btn">GitHub</a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <div class="container fade-in">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5 / CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React / Vue.js</li>
+                            <li>TypeScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>PHP / Laravel</li>
+                            <li>Python</li>
+                            <li>SQL (MySQL, PostgreSQL)</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Others</h3>
+                        <ul>
+                            <li>Git / GitHub</li>
+                            <li>AWS (EC2, S3)</li>
+                            <li>Docker</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container fade-in">
+                <h2 class="section-title">Contact</h2>
+                <p>お仕事のご依頼・ご相談など、お気軽にご連絡ください。</p>
+                <p class="email">your-email@example.com</p>
+                <div class="social-links">
+                    <a href="https://github.com/your-username" target="_blank">GitHub</a>
+                    <a href="https://twitter.com/your-username" target="_blank">X (Twitter)</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Taguchi's Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
